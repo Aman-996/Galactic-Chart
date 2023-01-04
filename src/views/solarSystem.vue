@@ -440,8 +440,6 @@ export default {
       const vector = new THREE.Vector3();
 
       for ( let i = 0, l = data.length; i < l; i ++ ) {
-        console.log(i)
-
         const phi = Math.acos( - 1 + ( 2 * i ) / l );
         const theta = Math.sqrt( l * Math.PI ) * phi;
 
